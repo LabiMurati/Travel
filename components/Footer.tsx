@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<div>
+		<div className="max-container  padding-container">
 			<div className="w-full flex flex-wrap mb-20">
 				<div className="flex flex-wrap gap-10 justify-between w-full px-5 sm:px-10">
 					<ul className="flex items-center justify-center w-full sm:w-auto">
