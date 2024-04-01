@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Home from "./page";
 import Footer from "@/components/Footer";
+import GetApp from "@/components/GetApp";
+
 
 export const metadata: Metadata = {
 	title: "Travel Landing Page",
@@ -17,9 +19,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className="max-container padding-container">
-				<Navbar />
-				<Home/>
+			<body>
+				<div className="max-container  padding-container">
+					<Navbar />
+					<Home />
+				</div>
+
+				<GetApp />
+				<Footer />
 			</body>
 		</html>
 	);

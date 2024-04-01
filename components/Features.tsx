@@ -28,12 +28,12 @@ const boxes = [
 
 const Features = () => {
 	return (
-		<div className="w-full overflow-hidden">
+		<div className="w-full  mb-32">
 			<div className="flex flex-wrap justify-center items-center max-w-6xl mx-auto top-[100px]">
 				<div
-					className="w-full bg-cover bg-no-repeat"
+					className="w-full bg-cover bg-no-repeat mt-32"
 					style={{
-						height: "80vh",
+						height: "fit-content",
 						backgroundImage: 'url("/back-removebg-preview.png")',
 					}}>
 					<div className="flex flex-wrap justify-around items-center h-full">
